@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Register on Event</h2>
+    <form action="process_registration.php" method="POST">
+        <label for="event_id">Event ID:</label>
+        <input type="text" id="event_id" name="event_id" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required><br><br>
+
+        <label for="college">College:</label>
+        <input type="text" id="college" name="college" required><br><br>
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
